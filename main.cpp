@@ -10,8 +10,8 @@ unsigned long previousMillis = 0; //will store the last time an interval was hit
 int interval = 1000; // Assigns an interval value to be used in the timer funciton
 int port = 7000; // Assigns a port to be broadcast to
 
-const char * ssid = "WaiFiFu"; //WiFi name. It varies depending on the user :)
-const char * password = "2nerds&1cat"; //WiFi Password.. THIS IS SECRET DON'T LOOK
+const char * ssid = ""; //WiFi name. It varies depending on the user :)
+const char * password = ""; //WiFi Password.. THIS IS SECRET DON'T LOOK
 
 AsyncUDP udp; // Creates AsyncUDP object
 
